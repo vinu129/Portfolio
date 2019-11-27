@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Growth-Portfolio</title>
+    <!-- Google Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800|Playfair+Display:400,700,900&display=swap"
+        rel="stylesheet">
+    <!-- Link to css -->
+    <link rel="stylesheet" href="./assets/css/style.min.css">
+    <!-- Link to fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <!-- Main wrapper -->
+    <div class="main-wrapper d-flex flex-column bg-primary w-100 pt-4">
+        <!-- Header -->
+        <nav class="navbar navbar-expand-lg justify-content-around navbar-dark bg-primary w-100">
+            <a class="navbar-brand d-flex align-items-center text-white navbar-dark" href="#"><span>
+                    <img src="./assets/images/logo.jpg" alt="logo" class="logo-img mr-3">
+                </span> Growth</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse flex-grow-0" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link text-uppercase text-center px-4" href="#">about</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link text-uppercase text-center px-4 active" href="#">works</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-uppercase text-center text-center px-4" href="#">case study</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-uppercase text-center px-4" href="#">clients</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-uppercase text-center px-4" href="#">contact</a>
+                    </li>
+                </ul>
+                <button type="button" class="btn btn-outline-warning ml-auto mr-auto ml-lg-5" aria-label="Let's chat">
+                    Let's chat
+                </button>
+            </div>
+        </nav>
+        <!-- Ends:Header -->
+        <!-- Content -->
+        <div class="content d-flex flex-column align-items-center justify-content-center">
+            <!-- Home-area -->
+            <div class="container home-area d-flex justify-content-between align-items-center mx-3 p-0 py-5">
+                <div class="title-area">
+                    <h1 class="text-warning ">Hello, I'am</h1>
+                    <h1 class="title display-1 text-white">Christian Lopez</h1>
+                    <h3 class="text-white mt-4">Product Designer</h3>
+                </div>
+                <img src="./assets/images/user-image.jpg" alt="user-img" class="img-fluid user-img d-none d-lg-block">
+            </div>
+            <!-- Work-area -->
+            <div class="my_work-area d-flex align-items-center w-100 mb-4 mx-3">
+                <div class="container p-0">
+                    <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                        <li class="nav-item flex-grow-1">
+                            <a class="nav-link text-uppercase text-center active py-3 " id="pills-about-tab"
+                                data-toggle="pill" href="#pills-about" role="tab" aria-controls="pills-about"
+                                aria-selected="true">About</a>
+                        </li>
+                        <li class="nav-item flex-grow-1">
+                            <a class="nav-link text-uppercase text-center py-3 " id="pills-service-tab"
+                                data-toggle="pill" href="#pills-service" role="tab" aria-controls="pills-service"
+                                aria-selected="false">my services</a>
+                        </li>
+                        <li class="nav-item flex-grow-1">
+                            <a class="nav-link text-uppercase text-center py-3 " id="pills-interview-tab"
+                                data-toggle="pill" href="#pills-interview" role="tab" aria-controls="pills-interview"
+                                aria-selected="false">interviews</a>
+                        </li>
+                        <li class="nav-item flex-grow-1">
+                            <a class="nav-link text-uppercase text-center py-3 " id="pills-awards-tab"
+                                data-toggle="pill" href="#pills-awards" role="tab" aria-controls="pills-awards"
+                                aria-selected="false">awards</a>
+                        </li>
+                        <li class="nav-item flex-grow-1">
+                            <a class="nav-link text-uppercase text-center py-3 " id="pills-exhibitions-tab"
+                                data-toggle="pill" href="#pills-exhibitions" role="tab"
+                                aria-controls="pills-exhibitions" aria-selected="false">exhibitions</a>
+                        </li>
+                    </ul>
+                    <div class="tab-content" id="pills-tabContent">
+                        <div class="tab-pane fade show active" id="pills-about" role="tabpanel"
+                            aria-labelledby="pills-about-tab">
+                            <div class="d-flex flex-column flex-lg-row">
+                                <div class="info-img p-5 flex-shrink-0">
+                                    <img src="./assets/images/info-img.jpg" alt="info-img" class="w-100 h-100 p-5">
+                                </div>
+                                <div class="p-5 d-flex flex-column justify-content-center align-items-start">
+                                    <div class="text-uppercase text-warning my-4">About me</div>
+                                    <h2 class="content-title text-white">Why hire me for your next project?</h2>
+                                    <p class="content-text text-white mt-4">
+                                        Lorem ipsum, dolor sit amet <spanclass="text-warning"> consectetur </span>
+                                            adipisicing elit. Voluptates in fugit,ut quo nemo facilis, itaque
+                                            reprehenderit
+                                            iste<span class="text-warning"> doloribus
+                                            </span>consequuntur totam. <span class="text-warning"> Mollitia </span>
+                                            veniam
+                                            debitis voluptatibus corporis molestias vel facilis voluptatem?</p>
+                                    <p class="content-text text-white mt-3">
+                                        Lorem ipsum dolor sit amet consectetur
+                                        adipisicing elit. Odit quaerat fugiat alias eius.Illo vero minus tempore
+                                        laudantium
+                                        culpa aperiam qui magni fugit odit eligendi obcaecati eveniet, ipsum neque velit
+                                        vel
+                                        totam soluta labore iste libero nostrum enim!
+                                        Eligendi
+                                    </p>
+                                    <button type="button" class="btn btn-outline-warning mt-5 mb-2"
+                                        aria-label="Let's chat">Learn more</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane text-white  fade" id="pills-service" role="tabpanel"
+                            aria-labelledby="pills-service-tab">
+                            <div class="d-flex align-items-center justify-content-center">
+                                service
+                            </div>
+                        </div>
+                        <div class="tab-pane text-white fade" id="pills-interview" role="tabpanel"
+                            aria-labelledby="pills-interview-tab">
+                            <div class="d-flex align-items-center justify-content-center">
+                                interview
+                            </div>
+                        </div>
+                        <div class="tab-pane text-white fade" id="pills-awards" role="tabpanel"
+                            aria-labelledby="pills-awards-tab">
+                            <div class="d-flex align-items-center justify-content-center">
+                                awards
+                            </div>
+
+                        </div>
+                        <div class="tab-pane text-white fade" id="pills-exhibitions" role="tabpanel"
+                            aria-labelledby="pills-exhibitions-tab">
+                            <div class="d-flex align-items-center justify-content-center">
+                                exhibition
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <!-- My-projects -->
+            <div class="my-projects container d-flex flex-column p-0 mt-5">
+                <div class="text-uppercase text-warning mt-5">my client</div>
+                <div class="d-flex align-items-center justify-content-between mb-5">
+                    <h2 class="content-title text-white">Projects</h2>
+                    <nav class="pagin" aria-label="Page navigation example">
+                        <ul class="pagination">
+                            <li class="page-item">
+                                <a class="page-link" id="prev" href="#" aria-label="Previous">
+                                    <span class="fa fa-long-arrow-left"></span>
+                                </a>
+                            </li>
+                            <li class="page-item">
+                                <a class="page-link" id="next" href="#" aria-label="Next">
+                                    <span class="fa fa-long-arrow-right"></span>
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="d-flex pb-5">
+                    <div class="card border-bottom border-warning flex-shrink-0 rounded-top pb-2  mr-4">
+                        <img src="./assets/images/card-img-1.jpg" class="card-img-top w-100 rounded-lg" alt="card-img">
+                        <div class="card-body px-4 py-2">
+                            <div class="text-uppercase text-warning font-size-sm my-3">dashboard, admin</div>
+                            <h3 class="card-title text-white">Project management Admin Panel</h3>
+                            <p class="card-text text-white mt-4 mb-5">Some quick example text to build on the card title
+                            </p>
+                            <button type="button" class="btn btn-outline-warning my-4" aria-label="Let's chat">read
+                                process <span class="more-arrow fa fa-long-arrow-right mx-2"></span></button>
+                        </div>
+                    </div>
+                    <div class="card border-bottom border-warning flex-shrink-0 rounded-top pb-2 mr-4">
+                        <img src="./assets/images/card-img-2.jpg" class="card-img-top w-100 rounded-lg" alt="card-img">
+                        <div class="card-body px-4 py-2">
+                            <div class="text-uppercase text-warning font-size-sm my-3">website</div>
+                            <h3 class="card-title text-white">Architecture Company Website</h3>
+                            <p class="card-text text-white mt-4 mb-5">Some quick example text to build on the card title
+                            </p>
+                            <button type="button" class="btn btn-outline-warning my-4" aria-label="Let's chat">read
+                                process <span class="more-arrow fa fa-long-arrow-right mx-2"></span> </button>
+                        </div>
+                    </div>
+                    <div class="card border-bottom border-warning flex-shrink-0 rounded-top pb-2">
+                        <img src="./assets/images/card-img-3.jpg" class="card-img-top w-100 rounded-lg" alt="card-img">
+                        <div class="card-body px-4 py-2">
+                            <div class="text-uppercase text-warning font-size-sm my-3">mobile app,ios appn</div>
+                            <h3 class="card-title text-white">To Do Task List App</h3>
+                            <p class="card-text text-white mt-4 mb-5">Some quick example text to build on the card title
+                                and make
+                            </p>
+                            <button type="button" class="btn btn-outline-warning my-4" aria-label="Let's chat">read
+                                process <span class="more-arrow fa fa-long-arrow-right mx-2"></span> </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Testimonials -->
+            <div class="testimonials mt-5 pb-5 w-100">
+                <div class=" container d-flex flex-column p-0 my-5">
+                    <div class="text-uppercase text-warning mt-5">testimonials</div>
+                    <div class="d-flex align-items-center justify-content-between mb-5">
+                        <h2 class="content-title text-white">Happy Clients Says</h2>
+                        <nav aria-label="Page navigation example">
+                            <ul class="pagination">
+                                <li class="page-item">
+                                    <a class="page-link" href="#" aria-label="Previous">
+                                        <span class="fa fa-long-arrow-left"></span>
+                                    </a>
+                                </li>
+                                <li class="page-item">
+                                    <a class="page-link" href="#" aria-label="Next">
+                                        <span class="fa fa-long-arrow-right"></span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="d-flex">
+                        <div class="testimonial-card border flex-shrink-0 border-warning rounded-lg px-5 py-4 mr-4">
+                            <div class="d-flex align-items-end">
+                                <img src="./assets/images/profile.jpg" alt="" class="user-img rounded-circle">
+                                <div class="d-flex flex-column ml-3">
+                                    <span class="user-name text-white">Martha Sandoval</span>
+                                    <span class="user-designation text-warning font-size-sm">Product designer at
+                                        codenext</span>
+                                </div>
+                                <span class="quote fa fa-quote-right fa-3x ml-auto"></span>
+                            </div>
+                            <p class="text-white mt-5"><em> Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                    Quae quis
+                                    provident, dolorum vitae eos libero corporis deserunt unde assumenda fuga illum
+                                    saepe
+                                    harum aperiam nesciunt maxime vero quia quo accusantium.</em></p>
+                        </div>
+                        <div class="testimonial-card border flex-shrink-0 border-warning rounded-lg px-5 py-4 mr-4">
+                            <div class="d-flex align-items-end">
+                                <img src="./assets/images/profile.jpg" alt="" class="user-img rounded-circle">
+                                <div class="d-flex flex-column ml-3">
+                                    <span class="user-name text-white">Martha Sandoval</span>
+                                    <span class="user-designation text-warning font-size-sm">Product designer at
+                                        codenext</span>
+                                </div>
+                                <span class="quote fa fa-quote-right fa-3x ml-auto"></span>
+                            </div>
+                            <p class="text-white mt-5"><em> Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                    Quae quis
+                                    provident, dolorum vitae eos libero corporis deserunt unde assumenda fuga illum
+                                    saepe
+                                    harum aperiam nesciunt maxime vero quia quo accusantium.</em></p>
+                        </div>
+                        <div class="testimonial-card flex-shrink-0 border border-warning rounded-lg px-5 py-4">
+                            <div class="d-flex align-items-end">
+                                <img src="./assets/images/profile.jpg" alt="" class="user-img rounded-circle">
+                                <div class="d-flex flex-column ml-3">
+                                    <span class="user-name text-white">Martha Sandoval</span>
+                                    <span class="user-designation text-warning font-size-sm">Product designer at
+                                        codenext</span>
+                                </div>
+                                <span class="quote fa fa-quote-right fa-3x ml-auto"></span>
+                            </div>
+                            <p class="text-white mt-5"><em> Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                    Quae quis
+                                    provident, dolorum vitae eos libero corporis deserunt unde assumenda fuga illum
+                                    saepe
+                                    harum aperiam nesciunt maxime vero quia quo accusantium.</em></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Clients -->
+            <div class="clients w-100">
+                <div class=" container d-flex flex-wrap p-0 mt-5 py-5">
+                    <div class="col-12 col-md-2">
+                        <div class="text-uppercase text-warning">my honorable</div>
+                        <h2 class="content-title text-white">Clients</h2>
+                        <div class="nav flex-column nav-tabs mt-5 " id="v-pills-tab" role="tablist"
+                            aria-orientation="vertical">
+                            <a class="nav-link active text-uppercase px-0" data-toggle="tab" href="#worldwide"
+                                role="tab" aria-controls="worldwide" aria-selected="true">worldwide</a>
+                            <a class="nav-link text-uppercase px-0" data-toggle="tab" href="#country" role="tab"
+                                aria-controls="country" aria-selected="false">my country</a>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-10 w-100">
+                        <div class="tab-content" id="v-pills-tabContent">
+                            <div class="tab-pane fade show active" id="worldwide" role="tabpanel"
+                                aria-labelledby="worldwide-tab">
+                                <div class="d-flex flex-wrap justify-content-center">
+                                    <img src="./assets/images/client1.jpg" alt="client1"
+                                        class="client-img rounded-lg mr-4 mb-4">
+                                    <img src="./assets/images/client2.jpg" alt="client1"
+                                        class="client-img rounded-lg mr-4 mb-4">
+                                    <img src="./assets/images/client3.jpg" alt="client1"
+                                        class="client-img rounded-lg mr-4 mb-4">
+                                    <img src="./assets/images/client3.jpg" alt="client1"
+                                        class="client-img rounded-lg mr-4 mb-4">
+                                    <img src="./assets/images/client2.jpg" alt="client1"
+                                        class="client-img rounded-lg mr-4 mb-4">
+                                    <img src="./assets/images/client1.jpg" alt="client1"
+                                        class="client-img rounded-lg mr-4 mb-4">
+                                    <img src="./assets/images/client3.jpg" alt="client1"
+                                        class="client-img rounded-lg mr-4 mb-4">
+                                    <img src="./assets/images/client2.jpg" alt="client1"
+                                        class="client-img rounded-lg mr-4 mb-4">
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="country" role="tabpanel" aria-labelledby="country-tab">
+                                <div class="d-flex flex-wrap justify-content-center">
+                                    <img src="./assets/images/client1.jpg" alt="client1"
+                                        class="client-img rounded-lg mr-4 mb-4">
+                                    <img src="./assets/images/client2.jpg" alt="client1"
+                                        class="client-img rounded-lg mr-4 mb-4">
+                                    <img src="./assets/images/client3.jpg" alt="client1"
+                                        class="client-img rounded-lg mr-4 mb-4">
+                                    <img src="./assets/images/client3.jpg" alt="client1"
+                                        class="client-img rounded-lg mr-4 mb-4">
+                                    <img src="./assets/images/client2.jpg" alt="client1"
+                                        class="client-img rounded-lg mr-4 mb-4">
+                                    <img src="./assets/images/client1.jpg" alt="client1"
+                                        class="client-img rounded-lg mr-4 mb-4">
+                                    <img src="./assets/images/client3.jpg" alt="client1"
+                                        class="client-img rounded-lg mr-4 mb-4">
+                                    <img src="./assets/images/client2.jpg" alt="client1"
+                                        class="client-img rounded-lg mr-4 mb-4">
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <!-- Social Media -->
+            <div class="social-media w-100">
+                <div class=" container d-flex flex-column flex-wrap p-0 mt-5 py-5">
+                    <div class="text-uppercase text-warning">social media</div>
+                    <h2 class="content-title text-white">Let's Be Friends</h2>
+                    <div class="d-flex flex-wrap">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Ends:Content -->
+        <!-- Footer -->
+        <footer class="footer">
+            <div class=" container d-flex flex-wrap p-0 py-5">
+                <div class="d-flex justify-content-between align-items-center w-100">
+                    <div>
+                        <img src="./assets/images/footer-logo.jpg" alt="logo" class="logo-img mr-3">
+                        <span class="logo-text text-white">Growth</span>
+                    </div>
+                    <h2 class="footer-title text-white">Let's Talk?</h2>
+                    <button type="button" class="btn btn-outline-warning" aria-label="Let's chat">
+                        Let's chat
+                    </button>
+                </div>
+                <div class="d-flex justify-content-center w-100 mt-5 ">
+                <ul class="nav pt-3">
+                    <li class="nav-item">
+                        <a class="nav-link text-uppercase active" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-uppercase" href="#">works</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-uppercase" href="#">case study</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-uppercase" href="#">clients</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-uppercase" href="#">contacts</a>
+                    </li>
+                  
+                </ul>
+                </div>
+            </div>
+        </footer>
+        <!-- Ends:Footer -->
+    </div>
+    <!--Ends: Main wrapper -->
+
+    <script src="assets/vendor/jquery/jquery-3.3.1.slim.min.js"></script>
+    <script src="assets/vendor/bootstrap/js/popper.min.js"></script>
+    <script src="assets/vendor/bootstrap/js/bootstrap.min.js"></script>
+    <!-- javascript -->
+    <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>

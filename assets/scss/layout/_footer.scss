@@ -1,0 +1,12 @@
+// Footer styles goes here
+.footer {
+  background-color: lighten($primary, 9%);
+  .logo-text {
+    font-size: $font-size-base * 1.8;
+  }
+  .footer-title {
+    font-family: $font-family-playfair-display;
+    font-size: $font-size-lg;
+    font-weight: 800;
+  }
+}

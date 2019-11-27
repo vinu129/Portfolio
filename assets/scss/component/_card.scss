@@ -1,0 +1,20 @@
+.card{
+    background-color: lighten($primary,10%);
+    width: $card-width;
+    .card-img-top{
+        height:$card-img-height;
+    }
+    .card-title{
+          font-family: $font-family-playfair-display;
+    }
+    .more-arrow{
+        display: none;
+    }
+    .btn{
+        &:hover{
+            .more-arrow{
+                display: block;
+            }
+        }
+    }
+}

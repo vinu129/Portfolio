@@ -1,0 +1,42 @@
+.navbar {
+  z-index: 9;
+  .logo-img {
+    width: $logo-width;
+    height: $logo-height;
+  }
+  .navbar-brand {
+    font-size:  $font-size-base * 1.8;
+  }
+  .navbar-toggler {
+    font-size: $font-size-base;
+  }
+  .navbar-nav {
+    .nav-link {
+      letter-spacing: 1px;
+      color: $white;
+      position: relative;
+      &::after {
+        content: "";
+        display: none;
+        position: absolute;
+        left: 45%;
+        bottom: -4px;
+        width: 0;
+        height: 0;
+        border-left: 6px solid transparent;
+        border-right: 6px solid transparent;
+        border-top: 6px solid $warning;
+      }
+      &:hover,
+      &:active,
+      &.active {
+        &::after {
+          display: block;
+          @include media-breakpoint-down(md) {
+            display: none;
+          }
+        }
+      }
+    }
+  }
+}
